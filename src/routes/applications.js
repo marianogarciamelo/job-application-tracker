@@ -32,7 +32,9 @@ router.post('/', async (req, res) => {
                 job_status,
                 job_link,
                 date_applied,
-                notes
+                notes,
+                interview_stage,
+                contact
             }
         )
         .select();
